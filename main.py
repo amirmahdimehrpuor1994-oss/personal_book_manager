@@ -1,7 +1,16 @@
-name = input("enter your name : ")
+name = input("Enter your name: ")
 
-print(f" welcome to the this app , {name}")
+print(f"Hello {name}, welcome to Personal Book Manager!")
 
-book = input("enter name of a book : ")
+book_count = int(input("How many books do you want to enter? "))
 
-print(f"Book entered : {book}")
+books = []
+
+for i in range(book_count):
+    book = input(f"Enter the title of book #{i + 1}: ")
+    books.append(book)
+
+print("\nYour books:")
+
+for book in books:
+    print(f". {book}")
