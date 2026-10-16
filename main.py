@@ -1,3 +1,5 @@
+from books import display_books
+
 name = input("Enter your name: ")
 
 print(f"Hello {name}, welcome to Personal Book Manager!")
@@ -10,7 +12,4 @@ for i in range(book_count):
     book = input(f"Enter the title of book #{i + 1}: ")
     books.append(book)
 
-print("\nYour books:")
-
-for book in books:
-    print(f". {book}")
+display_books(books)
