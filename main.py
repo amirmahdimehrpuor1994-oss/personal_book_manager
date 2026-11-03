@@ -22,8 +22,13 @@ books = load_books()
 book_count = int(input("How many books do you want to enter? "))
 
 for i in range(book_count):
-    book = input(f"Enter the title of book #{i + 1}: ")
-    books.append(book)
+    book_name = input(f"Enter the title of book #{i + 1}: ")
+    property = input("enter ptoperty(low,medium,high) :").lower()
+    book = {
+        "name" : book_name,
+        "property" : property
+    }
+    books.append(book_name)
 
 save_books(books)
 

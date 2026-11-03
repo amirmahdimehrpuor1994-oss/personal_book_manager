@@ -2,7 +2,7 @@ import json
 
 
 def display_books(books):
-    print("\nYour books:")
+    print(book["name"], "-", book["property"])
 
     for book in books:
         print(f"- {book}")
