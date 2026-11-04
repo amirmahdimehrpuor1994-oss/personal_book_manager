@@ -1,12 +1,12 @@
-# Personal Task Manager
+# Personal Book Manager
 ![Static Badge](https://img.shields.io/badge/python-blue?logo=python&logoColor=white)
 
 A simple task manager built with python
 
 # Features
-- add multiple tasks
-- save tasks
-- load saved tasks
+- add multiple books
+- save books
+- load saved books
 - admin mode
 
 ## Project Structure
@@ -22,6 +22,8 @@ A simple task manager built with python
 `requirements.txt` : install library
 
 `images/` : show all images
+
+`README` : toll all of the works for files
 
 ## How It Works
 
@@ -113,8 +115,8 @@ python main.py
 ```
 
 ## Screenshot
-![personal_task_manager_screenshot](C:\Users\T.B.Laptop\Desktop\codes of programmer\the_personal_work)
+![personal_book_manager_screenshot](images\world.png)
 
 ## Demo
 
-![personal_task_manager_demo]("C:\Users\T.B.Laptop\Desktop\codes of programmer\the_personal_work\Video.gif")
+![personal_book_manager_demo](images\Animation.gif)

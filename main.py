@@ -7,7 +7,7 @@ load_dotenv()
 name = input("Enter your name: ")
 print("welcome", name)
 
-admin_mode = input("do you want to unlock the admin mode? (yes / no)")
+admin_mode = input("do you want to unlock the admin mode? (yes / no) ")
 if admin_mode == "yes":
     password = input("enter the password admin : ")
     if password == os.getenv("admin_pass"):
@@ -23,12 +23,12 @@ book_count = int(input("How many books do you want to enter? "))
 
 for i in range(book_count):
     book_name = input(f"Enter the title of book #{i + 1}: ")
-    property = input("enter ptoperty(low,medium,high) :").lower()
+    priority = input("Enter priority (low, medium, high): ").lower()
     book = {
         "name" : book_name,
-        "property" : property
+        "property" : priority
     }
-    books.append(book_name)
+    books.append(book)
 
 save_books(books)
 

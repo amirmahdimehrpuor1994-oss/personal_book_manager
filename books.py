@@ -1,12 +1,9 @@
 import json
 
-
 def display_books(books):
-    print(book["name"], "- priority", book["property"])
 
     for book in books:
-        print(f"- {book}")
-
+        print(book["name"], "- priority : ", book["property"])
 
 def load_books():
     try:
@@ -18,4 +15,4 @@ def load_books():
 
 def save_books(books):
     with open("books.json", "w", encoding="utf-8") as file:
-        json.dump(books, file, ensure_ascii=False, indent=4)
+        json.dump(books, file, ensure_ascii=False, indent=2)
