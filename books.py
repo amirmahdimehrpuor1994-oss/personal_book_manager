@@ -1,9 +1,8 @@
 import json
 
 def display_books(books):
-
     for book in books:
-        print(book["name"], "- priority : ", book["property"])
+        print(book["name"], " - priority : ", book["property"])
 
 def load_books():
     try:
