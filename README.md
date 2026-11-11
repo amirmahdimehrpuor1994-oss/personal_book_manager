@@ -1,7 +1,9 @@
 # Personal Book Manager
 ![Static Badge](https://img.shields.io/badge/python-blue?logo=python&logoColor=white)
 
-A simple task manager built with python
+A simple task manager built with python 🖥️💾🛜
+
+This project is for learning 👨🏻‍💻
 
 # Features
 - add multiple books
