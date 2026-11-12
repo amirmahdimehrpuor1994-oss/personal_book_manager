@@ -30,4 +30,4 @@ save_books(books)
 
 display_books(books)
 
-print("thanks for use!")
+print("please follow me!")
