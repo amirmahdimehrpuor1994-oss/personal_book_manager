@@ -13,6 +13,7 @@ if admin_mode == "yes":
     if password == os.getenv("admin_pass"):
         print("admin mode actived!")
     else :
+
         print("wrong in the active the admin mode!")
 
 print(f"Hello {name}, welcome to Personal Book Manager!")
@@ -28,3 +29,5 @@ for i in range(book_count):
 save_books(books)
 
 display_books(books)
+
+print("thanks for use this system of books!🖥️😁")
